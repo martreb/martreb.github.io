@@ -1,0 +1,134 @@
+body
+{
+	background: #F0F8FF;
+	font-family: Lucida Sans Unicode;
+	margin: 0; 
+}
+
+.navbar-default
+{ 
+    background-color: #6495ED;
+    color: #F0F8FF !important;
+}
+
+h1, h2, li
+{
+	color: #555; 
+}
+
+a
+{
+	color: #8B008B;
+}
+
+p
+{
+	background: #666;
+	color: white;
+	padding: 10px; 
+}
+
+header
+{
+	font-size: 80px; 
+	font-family: Arial black; 
+	color: #666;
+	text-align: center;
+}
+
+.siteLogo
+{
+	transform: scale(0.7);
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.button:hover {
+  background-color: #666;
+  color: white;
+}
+
+.menu
+{
+	justify-content: center;
+	display: flex;
+	list-style: none;
+}
+
+.downloads1
+{
+	border-collapse: collapse;
+}
+
+table, td, th
+{
+	border: 1px solid black; 
+}
+
+
+header
+{
+	margin: .5vw;
+	font-size: 0;
+	display: -ms-flexbox;
+	-ms-flexbox-wrap: wrap;
+	-ms-flexbox-direction: column;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: webkit-box;
+	display: flex;
+}
+
+.galleryImages:hover
+{
+	transform: translate(50%, -50%);
+	transform: scale(2.5);
+}
+
+header div
+{
+	-webkit-box-flex: auto;
+	ims-flex: auto;
+	flex: auto;
+	width: 200px;
+	margin: .5vw; 
+}
+
+header div img
+{
+	width: 100%;
+	height: auto;
+	border: 1px solid #666;
+}
+
+@media screen and (max-width: 400px)
+{
+	header div
+	{
+		margin: 0;
+	}
+
+	header
+	{
+		padding: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
